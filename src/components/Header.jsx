@@ -2,7 +2,15 @@ import React from 'react'
 
 function Header() {
   return (
-    <div>Header</div>
+    <header>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Portfolio</li>
+          <li>About</li>
+        </ul>
+      </nav>
+    </header>
   )
 }
 
