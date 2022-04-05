@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 @layer base {
- /*  h1 {
+  h1 {
     @apply text-5xl;
   }
   h2 {
@@ -15,7 +15,7 @@
   }
   h4 {
     @apply text-lg;
-  } */
+  }
 }
 
 @layer base {
@@ -41,4 +41,11 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  li {
+    display: inline;
+  }
 }

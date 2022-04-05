@@ -10,13 +10,13 @@ export default function Footer() {
 
   return (
     <nav>
-      <ul>
+      <ul className="underline">
         {profiles.map((profile, i) => (
-          <li key={i}>
+          <li key={i} className="p-20">
             <Link href={profile.link}>
-              <a target="_blank" className="btn hover:text-accent-primary-pensionera">
+              <a target="_blank" className="">
                 <FontAwesomeIcon
-                  className="text-accent-secondary-pensionera mr-2 "
+                  className="m-20"
                   icon={[profile.iconFamily, profile.iconName]}
                 />
                 {profile.name}
