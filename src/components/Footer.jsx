@@ -10,13 +10,13 @@ export default function Footer() {
 
   return (
     <nav>
-      <ul className="underline">
+      <ul className="">
         {profiles.map((profile, i) => (
-          <li key={i} className="p-20">
+          <li key={i} className="mr-4">
             <Link href={profile.link}>
               <a target="_blank" className="">
                 <FontAwesomeIcon
-                  className="m-20"
+                  className="mx-2"
                   icon={[profile.iconFamily, profile.iconName]}
                 />
                 {profile.name}
@@ -24,8 +24,6 @@ export default function Footer() {
             </Link>
           </li>
         ))}
-        <li>LinkedIn</li>
-        <li>GitHub</li>
       </ul>
     </nav>
   )
