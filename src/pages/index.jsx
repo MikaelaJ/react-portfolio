@@ -15,10 +15,14 @@ export default function Home() {
       <Header />
       <main>
         <section>
-          <div className="flex-row">
-            <div>
-              <h1>Hello!</h1>
+          <div className="flex flex-row">
+            <div className="basis-1/2">
+              <h1>Hello, I am a screenprinter</h1>
+              <h2>That has a passion for pattern design</h2>
+            </div>
+            <div className="basis-1/2">
               <p>For me, it is natural and important to seek knowledge and learn new things. That is why I thrive in this industry, where new techniques and effective working methods are constantly updated. My design background in combination with technology has proven successful in previous positions, where my technical interest together with my creative side has been perceived as a strength.</p>
+
             </div>
           </div>
         </section>
