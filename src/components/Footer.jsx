@@ -10,7 +10,7 @@ export default function Footer() {
 
   return (
     <nav>
-      <ul className="">
+      <ul className="text-right">
         {profiles.map((profile, i) => (
           <li key={i} className="mr-4">
             <Link href={profile.link}>

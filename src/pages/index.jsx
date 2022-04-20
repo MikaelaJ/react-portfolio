@@ -14,9 +14,9 @@ export default function Home() {
         </Head>
         <Header />
         <main>
-          <section className="ml-32">
+          <section className="">
             <div className="flex flex-row">
-              <div className="h-screen basis-1/4 space-y-12">
+              <div className="h-screen basis-1/4 space-y-6">
                 <h1>Typography</h1>
                 <h1>Design &amp;</h1>
                 <h1>Programming</h1>
@@ -25,6 +25,7 @@ export default function Home() {
                 <p>For me, it is natural and important to seek knowledge and learn new things. That is why I thrive in this industry, where new techniques and effective working methods are constantly updated. My design background in combination with technology has proven successful in previous positions, where my technical interest together with my creative side has been perceived as a strength.</p>
               </div>
             </div>
+            <img src="" alt="" />
           </section>
         </main>
         <Footer />
