@@ -1,5 +1,7 @@
 import '../styles/globals.scss'
 import "@fortawesome/fontawesome-svg-core/styles.css";
+/* import Header from '../components/Header'
+import Footer from '../components/Footer' */
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
